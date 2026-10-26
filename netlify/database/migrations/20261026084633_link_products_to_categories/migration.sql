@@ -1,0 +1,1 @@
+ALTER TABLE "products" ADD CONSTRAINT "products_category_categories_name_fkey" FOREIGN KEY ("category") REFERENCES "categories"("name") ON UPDATE CASCADE;
